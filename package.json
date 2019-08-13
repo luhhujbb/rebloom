@@ -11,6 +11,7 @@
     "dist"
   ],
   "scripts": {
+    "prepare":"npm run build",	  
     "build": "tsc",
     "build:docs": "",
     "prepublishOnly": "rm -rf dist && yarn build"
